@@ -101,7 +101,7 @@ Heroku also needs to know which version of Python to use. We're using Python 3.6
 Create a new file called `runtime.txt` and save it beside your requirements.txt file (same directory) and put this in it:
 
 ```
-    python-3.6.8
+python-3.6.8
 ```
 
 Additional runtimes can be found at [https://devcenter.heroku.com/articles/python-support#specifying-a-python-version](https://devcenter.heroku.com/articles/python-support#specifying-a-python-version)
@@ -203,10 +203,10 @@ pip freeze > requirements.txt
 Now you need to add Whitenoise to your MIDDLEWARE. Open `base.py` and add whitenoise.
 ```
 MIDDLEWARE = [
-	...
+    ...
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
-	...
+    ...
 ]
 ```
 
@@ -256,3 +256,11 @@ And to delete a heroku app, type:
 ```
  heroku apps:destroy your-heroku-appname
 ```
+
+## Links and references from the video:
+Heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
+Heroku Runtimes: https://devcenter.heroku.com/articles/python-support#specifying-a-python-version
+Original blog post: https://wagtail.io/blog/wagtail-heroku-2017/
+Adding S3 for Media Files Blog Post: https://wagtail.io/blog/amazon-s3-for-media-files/
+`git lg` comand: `git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'`
+Django Keygen Tool: https://www.miniwebtool.com/django-secret-key-generator/
