@@ -259,8 +259,13 @@ And to delete a heroku app, type:
 
 ## Links and references from the video:
 Heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
+
 Heroku Runtimes: https://devcenter.heroku.com/articles/python-support#specifying-a-python-version
+
 Original blog post: https://wagtail.io/blog/wagtail-heroku-2017/
+
 Adding S3 for Media Files Blog Post: https://wagtail.io/blog/amazon-s3-for-media-files/
+
 `git lg` comand: `git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'`
+
 Django Keygen Tool: https://www.miniwebtool.com/django-secret-key-generator/
