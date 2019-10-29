@@ -13,7 +13,7 @@ draftjs-exporter==2.1.5
 gunicorn==19.9.0
 html5lib==1.0.1
 idna==2.8
-Pillow==5.4.1
+Pillow==6.2.0
 psycopg2==2.8.2
 pytz==2019.1
 requests==2.22.0
