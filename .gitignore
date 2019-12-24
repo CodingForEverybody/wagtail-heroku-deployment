@@ -2,5 +2,8 @@
 .DS_Store
 *.swp
 /venv/
+.venv/
 /static/
 /media/
+
+.vscode/
