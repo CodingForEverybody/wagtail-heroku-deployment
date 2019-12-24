@@ -3,7 +3,7 @@ certifi==2019.3.9
 chardet==3.0.4
 dj-database-url==0.5.0
 dj-static==0.0.6
-Django==2.2.1
+Django==2.2.9
 django-modelcluster==4.4
 django-taggit==0.24.0
 django-toolbelt==0.0.1
@@ -22,7 +22,7 @@ sqlparse==0.3.0
 static3==0.7.0
 Unidecode==1.0.23
 urllib3==1.25.2
-wagtail==2.5.1
+wagtail==2.7
 webencodings==0.5.1
 whitenoise==4.1.2
 Willow==1.1
