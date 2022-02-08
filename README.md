@@ -1,4 +1,4 @@
-# Update for Wagtail 2.16, Django 4.0 and Python 3.10 down 👇
+# Update for Wagtail 2.16, Django 4.0 and Python 3.10 👇
 [https://dev.to/kalobtaulien/deploying-a-wagtail-216-website-to-heroku-1iki](https://dev.to/kalobtaulien/deploying-a-wagtail-216-website-to-heroku-1iki)
 
 # The original article 👇
