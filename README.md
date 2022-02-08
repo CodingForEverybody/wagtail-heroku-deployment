@@ -1,6 +1,11 @@
-# Deploying a Wagtail Site on Heroku 
+# Update for Wagtail 2.16, Django 4.0 and Python 3.10 down 👇
+[https://dev.to/kalobtaulien/deploying-a-wagtail-216-website-to-heroku-1iki](https://dev.to/kalobtaulien/deploying-a-wagtail-216-website-to-heroku-1iki)
 
-> We're using Wagtail 2.5.1, Django 2.2.1, and Python 3.6.8.
+# The original article 👇
+
+## Deploying a Wagtail Site on Heroku 
+
+We're using Wagtail 2.5.1, Django 2.2.1, and Python 3.6.8.
 
 Demo site can be found at [https://desolate-fortress-53241.herokuapp.com/](https://desolate-fortress-53241.herokuapp.com/). It's the exact site I setup in the [YouTube tutorial video.](https://www.youtube.com/watch?v=RQ0eKv6HrpM)
 
